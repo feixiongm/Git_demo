@@ -5,7 +5,7 @@ public class Singleton1 {
             throw new RuntimeException("Can not create the object");
     }
 
-    public Singleton1 getInstance() {
+    public static Singleton1 getInstance() {
         return singleton1;
     }
 

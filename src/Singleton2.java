@@ -4,7 +4,7 @@ public class Singleton2 {
 
     }
 
-    public Singleton2 getInstance() {
+    public static Singleton2 getInstance() {
         if(singleton2 == null) {
             singleton2 = new Singleton2();
 
